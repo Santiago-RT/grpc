@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+// Definimos los mensajes que se van a intercambiar el clente y el servidor
+
+message ScrapearPeticion{
+    string url = 1;
+}
+message ScrapearRespuesta{
+    string datos = 1;
+}
+// Metotos disponibles 
+service ScrapearPaginas {
+    rpc ScrapearPagina (ScrapearPeticion) returns (ScrapearRespuesta){}
+}
