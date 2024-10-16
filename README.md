@@ -27,6 +27,6 @@ Esta hara scraper de perfumes hombres, se puede modificar en los archivos de los
 
 https://www.pccomponentes.com/
 
-Esta hara el scraper de tarjetas graficasse puede modificar en los archivos de los scraper las categorias y paginas a extraer
+Esta hara el scraper de tarjetas graficas, se puede modificar en los archivos de los scraper las categorias y paginas a extraer
 
 
