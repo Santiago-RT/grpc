@@ -14,6 +14,7 @@ Entramos a la base de datos y buscamos en el lateral el boton:
 
 Nos dara las credenciales:
 
-![image](https://github.com/user-attachments/assets/f6b8995e-bb48-4646-8296-37735dbd8dfe)
+![image](https://github.com/user-attachments/assets/1914b705-a636-4af2-a6c2-1b316d1f4b2a)
+
 
 
