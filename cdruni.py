@@ -102,7 +102,7 @@ class DruniScraper:
             # Disponibilidad
             # Hacemos un try debido a que si llega a faltar algun fallo se romperia el codigo y todos los datos que hemos recolectado hasta ese momento no se guardaran
                 try:
-                    estado_elemento = elemento.find_element(By.XPATH, ".//button[@class='action tocart']") 
+                    estado_elemento = elemento.find_element(By.XPATH, '//*[@id="maincontent"]/div[4]/div[1]/div[5]/ol/li[8]/div[2]/div/div/form/button') 
                     stock = estado_elemento is not None
                     if stock:
                         #Precio venta
@@ -121,10 +121,10 @@ class DruniScraper:
                     stock = None
             # =============================================================================================================================================
             # Añadimos el SKU a la lista de productos
-                if sku is not None:
+                if sku:
                     producto = {
                         "sku": sku,
-                        "titulo": titulo,
+                        "name": titulo,
                         "url": href,
                         "image": imagen,
                         "description": descripcion,
@@ -134,6 +134,7 @@ class DruniScraper:
                         "discount_percent": descuento,
                         "stock": stock
                     }
+                    
                 # Añadimos el producto nuevo al diccionario
                     productos.append(producto)
                 else:
