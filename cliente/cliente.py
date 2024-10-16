@@ -27,7 +27,7 @@ if __name__ == '__main__':
         
         # Preguntamos si desea continuar haciendo scraper en las paginas, quitando los espacios en blanco y siempre convirtiendo el texto a minusculas
         continuar = input("¿Quieres scrapear otra página? (sí/no): ").strip().lower()
-        # Preguntamos si el usuario no coloco algo diferente a (si), en caso contrario salimos del programa
+        # si el usuario no coloco algo diferente a "si"
         if continuar != 'si':
             print("Adios")
             break
