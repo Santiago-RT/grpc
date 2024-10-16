@@ -17,4 +17,11 @@ Nos dara las credenciales:
 ![image](https://github.com/user-attachments/assets/1914b705-a636-4af2-a6c2-1b316d1f4b2a)
 
 
+Las URLS disponibles para hacer scraping son:
+
+https://www.druni.es/
+
+https://www.pccomponentes.com/
+
+![image](https://github.com/user-attachments/assets/64581e89-e935-46c0-8645-f69ac550b691)
 
