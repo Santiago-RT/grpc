@@ -19,9 +19,11 @@ Nos dara las credenciales:
 
 Las URLS disponibles para hacer scraping son:
 
-https://www.druni.es/
-
-https://www.pccomponentes.com/
-
 ![image](https://github.com/user-attachments/assets/64581e89-e935-46c0-8645-f69ac550b691)
+
+https://www.druni.es/
+Esta hara scraper de perfumes hombres, se puede modificar en los archivos de los scraper las categorias y paginas a extraer
+https://www.pccomponentes.com/
+Esta hara el scraper de tarjetas graficasse puede modificar en los archivos de los scraper las categorias y paginas a extraer
+
 
